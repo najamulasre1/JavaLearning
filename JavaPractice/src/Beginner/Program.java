@@ -21,9 +21,9 @@ public class Program
 	}
 	
 	
-	static int GetIntegerFromUser(String dddd)
+	static int GetIntegerFromUser(String message)
 	{
-		System.out.println(dddd);
+		System.out.println(message);
 		
 		while(scanner.hasNextInt() == false)
 			System.out.printf("%s is not valid integer. Please re-enter:", scanner.next());
